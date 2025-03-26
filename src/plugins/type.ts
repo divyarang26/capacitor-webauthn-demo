@@ -188,7 +188,7 @@ export interface PublicKeyCredentialFuture extends PublicKeyCredential {
   // See https://w3c.github.io/webauthn/#sctn-parseRequestOptionsFromJSON
   parseRequestOptionsFromJSON?(options: PublicKeyCredentialRequestOptionsJSON): PublicKeyCredentialRequestOptions;
   // See https://w3c.github.io/webauthn/#dom-publickeycredential-tojson
-  toJSON?(): PublicKeyCredentialJSON;
+  toJSON(): PublicKeyCredentialJSON;
 }
 
 /**

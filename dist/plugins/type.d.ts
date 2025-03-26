@@ -163,7 +163,7 @@ export interface PublicKeyCredentialFuture extends PublicKeyCredential {
     isConditionalMediationAvailable?(): Promise<boolean>;
     parseCreationOptionsFromJSON?(options: PublicKeyCredentialCreationOptionsJSON): PublicKeyCredentialCreationOptions;
     parseRequestOptionsFromJSON?(options: PublicKeyCredentialRequestOptionsJSON): PublicKeyCredentialRequestOptions;
-    toJSON?(): PublicKeyCredentialJSON;
+    toJSON(): PublicKeyCredentialJSON;
 }
 /**
  * The two types of credentials as defined by bit 3 ("Backup Eligibility") in authenticator data:
